@@ -60,4 +60,3 @@ the number of units an object would move forward. Each object could
 then override this variable if required.
 - **CanMovePosition** could be extended from to create specific
 movement traits (e.g Chess moves).
-- 
