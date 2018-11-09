@@ -1,0 +1,22 @@
+// A Toy Robot Simulator test script
+//
+// To run (on MAC/Linux):
+//
+// cat testscript.txt | php Simulator.php
+// 
+// 0,1,NORTH
+// 0,0,WEST
+// 3,3,NORTH
+PLACE 0,0,NORTH
+MOVE
+REPORT
+PLACE 0,0,NORTH
+LEFT
+REPORT
+PLACE 1,2,EAST
+MOVE
+MOVE
+LEFT
+MOVE
+REPORT
+EXIT
